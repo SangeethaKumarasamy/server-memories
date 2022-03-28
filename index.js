@@ -20,7 +20,6 @@ app.use("/user",userRouter);
 app.get("/", (req, res) => {
   res.send("Hello to my memories API");
 });
-//const CONNECTION_URL =  "mongodb+srv://pro-memory:pro-memory123@cluster0.kl6wa.mongodb.net/postmessages";
 const PORT = process.env.PORT || 7000;
 
 mongoose
